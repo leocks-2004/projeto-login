@@ -1,1 +1,188 @@
 @charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body,html{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to bottom, rgb(88, 17, 88), aquamarine );
+}
+
+label img{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(66, 10, 45);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    transform: translate(4px,19px);
+
+}
+
+input{
+    padding: 10px;
+    border: 3px solid rgb(100, 26, 100);
+    border-radius: 10px;
+    
+}
+
+    @media screen and (max-width: 600px) {
+        div#formulario{
+            text-align: center;
+            display: block;
+            margin-top: 160px;
+            background-color: white;
+            padding: 70px;
+            width: 300px;
+            height: 300px;
+            margin: auto;
+            margin-top: 200px;
+            border-bottom-left-radius: 15px;
+            border-top-left-radius: 15px ;
+            
+        }
+        
+        body{
+            background-color: blueviolet;
+        }
+
+        input#afaste{
+            margin-top: 10px;
+            padding: 20px;
+            width: 100px;
+        }
+        
+        input#afaste:hover{
+            background-color: rgb(43, 226, 150);
+        }
+        
+    }
+
+
+
+    @media screen and (min-width: 600px) and (max-width:768px) {
+
+        div#formulario{
+            text-align: center;
+            display: block;
+            margin-top: 160px;
+            background-color: white;
+            padding: 70px;
+            width: 300px;
+            height: 300px;
+            margin: auto;
+            margin-top: 200px;
+            border-bottom-left-radius: 15px;
+            border-top-left-radius: 15px ;
+            
+        }
+        
+        input#afaste{
+            margin-top: 10px;
+            padding: 20px;
+            width: 100px;
+        }
+        
+        input#afaste:hover{
+            background-color: rgb(43, 226, 150);
+        }
+
+
+
+        
+    }
+
+
+    @media screen and (min-width: 768px) and (max-width: 992px) {
+
+        div#formulario{
+            text-align: center;
+            display: block;
+            margin-top: 160px;
+            background-color: white;
+            padding: 70px;
+            width: 500px;
+            height: 200px;
+            margin: auto;
+            margin-top: 200px;
+            border-bottom-left-radius: 15px;
+            border-top-left-radius: 15px ;
+            
+        }
+        
+        input#afaste{
+            margin-top: 10px;
+            padding: 20px;
+            width: 100px;
+        }
+        
+        input#afaste:hover{
+            background-color: rgb(43, 226, 150);
+        }
+
+        
+    }
+
+
+
+    @media screen and (min-width : 992px ) and (max-width: 1200px){
+        
+        div#formulario{
+            text-align: center;
+            display: block;
+            margin-top: 160px;
+            background-color: white;
+            padding: 70px;
+            width: 700px;
+            height: 200px;
+            margin: auto;
+            margin-top: 200px;
+            border-bottom-left-radius: 15px;
+            border-top-left-radius: 15px ;
+            
+        }
+        
+        input#afaste{
+            margin-top: 10px;
+            padding: 20px;
+            width: 100px;
+        }
+        
+        input#afaste:hover{
+            background-color: rgb(43, 226, 150);
+        }
+        
+
+    }
+
+    @media screen and (min-width:1200px) {
+        div#formulario{
+            text-align: center;
+            display: block;
+            margin-top: 160px;
+            background-color: white;
+            padding: 70px;
+            width: 900px;
+            height: 300px;
+            margin: auto;
+            margin-top: 200px;
+            border-bottom-left-radius: 15px;
+            border-top-left-radius: 15px ;
+            
+        }
+        
+        input#afaste{
+            margin-top: 10px;
+            padding: 20px;
+            width: 100px;
+        }
+        
+        input#afaste:hover{
+            background-color: rgb(43, 226, 150);
+        }
+
+    }
+ 

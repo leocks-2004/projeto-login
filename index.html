@@ -12,14 +12,20 @@
         <section id="login">
 
             <div id="imagem">
-
+                
             </div>
 
             <div id="formulario">
                 <h1>login</h1>
-                <p>Seja bem vindo</p>
+                <p>Seja bem vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
                 <form action="login.php" method="post">
-                    
+                    <label for="text"> <img src="imagem/symbole-masculin-icone.png" alt="icon"> </label>
+                    <input type="text" name="texto" id="text" min="6" placeholder="Ex:Emanuel12@gmail.com" required > <br>
+
+                    <label for="word"> <img src="imagem/symbole-de-cle.png" alt="f"> </label>
+                    <input type="password" name="pass" id="word" placeholder="informe uma senha" minlength="5" required> <br>
+
+                    <input type="submit" value="Entrar" id="afaste">
                 </form>
 
             </div>
